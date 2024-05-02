@@ -1,0 +1,22 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 600px; /* Default max-width for larger screens */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Media query for mobile screens */
+  @media only screen and (max-width: 600px) {
+    .container {
+      max-width: 100%; /* Adjusts container width to fit smaller screens */
+      padding: 10px;
+    }
+  }
+  
